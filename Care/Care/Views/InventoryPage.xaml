@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.Views.InventoryPage"
+             Title="Inventory"
+             xmlns:model="clr-namespace:Care.Models"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
+             xmlns:local="clr-namespace:Care.ViewModels">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" Clicked="Logout_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <RefreshView x:DataType="local:InventoryViewModel" Command="{Binding LoadItemsCommand}" 
+                 IsRefreshing="{Binding IsBusy, Mode=TwoWay}" x:Name="refreshView">
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <pancake:PancakeView
+                         BackgroundGradientStartPoint="1,0"
+                         BackgroundGradientEndPoint="1,1"
+                         Grid.Row="0"
+                         VerticalOptions="Center"
+                         CornerRadius="0,0,100,0" BackgroundColor="White">
+                        <StackLayout  Grid.Row="0">
+                            <Image Source="boxes.png" HorizontalOptions="Center" 
+                               Grid.Row="0" VerticalOptions="CenterAndExpand" Aspect="AspectFill"/>
+                        </StackLayout>
+                    </pancake:PancakeView>
+                    <StackLayout Padding="10" >
+                        <Frame HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="50"
+                           Grid.Row="0" CornerRadius="15" Padding="0">
+                            <Grid Padding="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="user.png"  HorizontalOptions="Start"
+                                     WidthRequest="30" Grid.Column="0"/>
+                                <Label Text="{Binding Item.EmailAddress}" TextColor="Black" 
+                                       Grid.Column="1" VerticalOptions="Center"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="I &#10;n &#10;v &#10;e &#10;n &#10;t &#10;o &#10;r &#10;y" TextTransform="Uppercase" 
+                           CharacterSpacing="50" TextColor="Black" HorizontalOptions="Start" FontSize="16"/>
+                    <Image Grid.ColumnSpan="2" Source="arrow.png" WidthRequest="70" HeightRequest="70"
+                            HorizontalOptions="Start" VerticalOptions="Start" Margin="0, 480, 0, 0"/>
+
+                    <CollectionView ItemsSource="{Binding Items}" SelectionMode="None" Grid.Column="1"
+                                    Margin="40, 0, 0, 0">
+                        <CollectionView.ItemTemplate Grid.Column="1">
+                            <DataTemplate>
+                                <StackLayout Padding="20" x:DataType="model:UserAndItemModel" Grid.Column="1">
+                                    <Label Text="{Binding ItemName}"  LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" 
+                                        FontSize="24" Grid.Column="1"/>
+                                    <Label Grid.Column="1" FontSize="18">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="{}{0}, {1}">
+                                                <Binding Path="Condition" />
+                                                <Binding Path="Category" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            NumberOfTapsRequired="1" Tapped="Item_Tapped" CommandParameter="{Binding ImageId}">
+                                        </TapGestureRecognizer>
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </RefreshView>
+</ContentPage>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.Views.ItemForm"
+             Title="Donate Item"
+             BackgroundImageSource="img.jpg"
+             xmlns:behaviour="clr-namespace:Care.Helpers.Behaviours"
+             xmlns:converter="clr-namespace:Care.Helpers.Converters" 
+             xmlns:local="clr-namespace:Care.ViewModels"
+             Visual="Material">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:InverseBoolConverter x:Key="InverseBoolConverter"/>
+            <converter:FirstValidationErrorConverter x:Key="FirstValidationErrorConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <local:ItemViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Orientation="Vertical" Padding="20">
+        <Image Source="logo.png" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200"/>
+        <ScrollView Padding="20">
+            <Frame BackgroundColor="White" HasShadow="False" CornerRadius="10" WidthRequest="300" Margin="0, -20, 0, 0">
+                <StackLayout Orientation="Vertical" Spacing="30">
+                    <Label FontSize="Title" TextColor="Black" Text="Donate your item to people in need" 
+                           FontAttributes="Bold" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                    <StackLayout Orientation="Vertical" Spacing="0">
+                        <Entry Placeholder="Item name" Text="{Binding Name.Value, Mode=TwoWay}">
+                            <Entry.Behaviors>
+                                <behaviour:EntryLineValidationBehaviour IsValid="{Binding Name.IsValid}"/>
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Label Text="{Binding Name.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding Name.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+
+                        <Picker x:Name="picker_condition"
+                            Title="Select item condition"
+                            SelectedItem="{Binding Condition.Value, Mode=TwoWay}">
+                            <Picker.Items>
+                                <x:String>New</x:String>
+                                <x:String>Very Good</x:String>
+                                <x:String>Normal</x:String>
+                                <x:String>Satisfactory</x:String>
+                            </Picker.Items>
+                            <Picker.Behaviors>
+                                <behaviour:PickerLineValidationBehaviour IsValid="{Binding Condition.IsValid}"/>
+                            </Picker.Behaviors>
+                        </Picker>
+
+                        <Label Text="{Binding Condition.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding Condition.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+
+                        <Picker x:Name="picker_category"
+                            Title="Select item category"
+                            SelectedItem="{Binding Category.Value, Mode=TwoWay}">
+                            <Picker.Items>
+                                <x:String>Clothes</x:String>
+                                <x:String>Shoes</x:String>
+                                <x:String>Home Appliance</x:String>
+                                <x:String>Food</x:String>
+                                <x:String>Furniture</x:String>
+                                <x:String>Household goods</x:String>
+                                <x:String>Books</x:String>
+                            </Picker.Items>
+                            <Picker.Behaviors>
+                                <behaviour:PickerLineValidationBehaviour IsValid="{Binding Category.IsValid}"/>
+                            </Picker.Behaviors>
+                        </Picker>
+
+                        <Label Text="{Binding Category.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding Category.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+
+
+                        <StackLayout Margin="0,20,0,10">
+                            <Grid RowSpacing="0" ColumnSpacing="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="80*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Button Text="Choose Photo" TextColor="Black" CornerRadius="20" Grid.Row="0" Grid.Column="0"
+                            FontSize="Medium"  WidthRequest="140" HorizontalOptions="Center" VerticalOptions="Center"
+                            BackgroundColor="Transparent" BorderWidth="1" BorderColor="DarkGray" FontAttributes="Italic"
+                            HeightRequest="80" TextTransform="None" ImageSource="photos.png"
+                            Style="{StaticResource SecondaryBtnStyle}"
+                            Command="{Binding AddPhotoCommand}"/>
+
+                                <Frame CornerRadius="20" Padding="0" Grid.Row="0" Grid.Column="1"  
+                                VerticalOptions="StartAndExpand" HorizontalOptions="Center"
+                                IsClippedToBounds="True" HasShadow="True" HeightRequest="80" BackgroundColor="White"
+                                WidthRequest="125">
+                                    <Image Source="{Binding ChosenPhoto}" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                </Frame>
+                            </Grid>
+                        </StackLayout>
+
+                        <Entry IsVisible="False" Text="{Binding ImageFile.Value, Mode=TwoWay}" >
+                            <Entry.Behaviors>
+                                <behaviour:EntryLineValidationBehaviour IsValid="{Binding ImageFile.IsValid}"/>
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Label Text="{Binding ImageFile.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                            IsVisible="{Binding ImageFile.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                            Style="{StaticResource ErrorTextStyle}"/>
+
+                    </StackLayout>
+
+                    <Button Text="Submit" TextColor="White" CornerRadius="20" FontAttributes="Bold"
+                        FontSize="Medium" HeightRequest="50" BackgroundColor="#64b6ac" 
+                        WidthRequest="130" HorizontalOptions="Center"
+                        Command="{Binding AddItemCommand}"/>
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

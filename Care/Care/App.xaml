@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.App">
+    <!--
+        Define global resources and styles here, that apply to all pages in your app.
+    -->
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#b57420</Color>
+            <Style TargetType="Button" x:Key="PrimaryBtnStyle">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="BorderColor" Value="#b57420"></Setter>
+                                    <Setter Property="BorderWidth" Value="1"></Setter>
+                                    <Setter Property="TextColor" Value="#b57420"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BorderColor" Value="Black"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            <Style TargetType="Button" x:Key="SecondaryBtnStyle">
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="BorderColor" Value="#b57420"></Setter>
+                                    <Setter Property="BorderWidth" Value="1"></Setter>
+                                    <Setter Property="TextColor" Value="#b57420"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BorderColor" Value="#a4a3a1"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="Margin" Value = "0,10,0,0"   />
+            </Style>
+            <Style TargetType="Label" x:Key="ErrorTextStyle">
+                <Setter Property="TextColor" Value = "Red"   />
+                <Setter Property="FontSize" Value = "12"   />
+            </Style>
+        </ResourceDictionary>        
+    </Application.Resources>
+</Application>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Care.ViewModels"
+             x:Class="Care.Views.FiltersPage"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.BindingContext>
+        <local:FiltersViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout Padding="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="110"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="170"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="Reset" Grid.Row="0" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"
+                   FontSize="18" FontAttributes="Bold">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ResetCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Text="Filters" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontAttributes="Bold"
+               TextColor="Black" FontSize="32" Grid.Row="0"/>
+            <Label Text="Done" Grid.Row="0" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"
+                   FontSize="18" FontAttributes="Bold">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoneCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label Text="Condition" FontAttributes="Bold" Grid.Row="2"
+                   FontSize="18" TextColor="Black"/>
+
+            <FlexLayout Grid.Row="3" Wrap="Wrap" x:Name="ConditionButtons" HorizontalOptions="Start"
+                        VerticalOptions="StartAndExpand" JustifyContent="SpaceBetween" AlignItems="Start">
+            </FlexLayout>
+
+            <Label Text="Category" FontAttributes="Bold" Grid.Row="5"
+                   FontSize="18" TextColor="Black"/>
+            <FlexLayout Grid.Row="6" Wrap="Wrap" x:Name="CategoryButtons" HorizontalOptions="Start"
+                        VerticalOptions="StartAndExpand" JustifyContent="SpaceBetween" AlignItems="Start">
+            </FlexLayout>
+        </Grid>
+        <Image Source="logo.png" HorizontalOptions="Center" HeightRequest="150" WidthRequest="150" VerticalOptions="EndAndExpand"/>
+    </StackLayout>
+</ContentPage>

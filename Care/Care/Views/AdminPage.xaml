@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.Views.AdminPage"
+             xmlns:local="clr-namespace:Care.ViewModels" 
+             Title="Admin Panel"
+             Shell.FlyoutBehavior="Disabled"
+             BackgroundImageSource="img.jpg">
+
+    <ContentPage.BindingContext>
+        <local:AdminViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" Clicked="Logout_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout  Spacing="10" Padding="20">
+        <Image Source="logo.png" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200"/>
+
+        <Grid RowSpacing="0" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="100*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            
+            <Frame CornerRadius="20" Padding="0" Grid.Row="0" Grid.Column="0"  
+                   VerticalOptions="StartAndExpand" HorizontalOptions="Center"
+                   IsClippedToBounds="True" HasShadow="True" HeightRequest="175" BackgroundColor="White"
+                   WidthRequest="175">
+                <Image Source="market.png" HorizontalOptions="Center" VerticalOptions="Start"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="MarketTapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame CornerRadius="20" Padding="0" Grid.Row="0" Grid.Column="1"  
+                   VerticalOptions="StartAndExpand" HorizontalOptions="Center"
+                   IsClippedToBounds="True" HasShadow="True" HeightRequest="175" BackgroundColor="White"
+                   WidthRequest="175">
+                <Image Source="add.png" HorizontalOptions="Center" VerticalOptions="Start"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="AddOrganizationTapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Label LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="0"
+                       Margin="0, 0, 0, 30" VerticalOptions="EndAndExpand"
+                       FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Market">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="MarketTapped"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="1"
+                       Margin="0, 0, 0, 30" VerticalOptions="EndAndExpand"
+                       FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Add Organization">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="AddOrganizationTapped"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+        </Grid>
+    </StackLayout>
+</ContentPage>

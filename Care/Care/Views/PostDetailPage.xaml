@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.Views.PostDetailPage" BackgroundImageSource="img.jpg"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:Care.Helpers.Behaviours">
+    <ScrollView>
+        <StackLayout Spacing="20">
+            <Grid RowSpacing="0" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="500*"></RowDefinition>
+                    <RowDefinition Height="200*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <pancake:PancakeView Padding="10"
+                         BackgroundGradientStartPoint="1,0"
+                         BackgroundGradientEndPoint="1,1"
+                         HeightRequest="220"
+                         VerticalOptions="Start"
+                         CornerRadius="0,0,100,100" Grid.Row="0">
+
+                    <pancake:PancakeView.BackgroundGradientStops>
+                        <pancake:GradientStopCollection>
+                            <pancake:GradientStop Color="#ddbea9"
+                                      Offset="0"/>
+                            <pancake:GradientStop Color="#ddbea9"
+                                      Offset="0.4"/>
+                            <pancake:GradientStop Color="#ddbea9"
+                                      Offset="1"/>
+                        </pancake:GradientStopCollection>
+                    </pancake:PancakeView.BackgroundGradientStops>
+
+                    <StackLayout VerticalOptions="FillAndExpand">
+
+                    </StackLayout>
+                </pancake:PancakeView>
+
+                <Image Source="logo.png" HorizontalOptions="Center" HeightRequest="150" WidthRequest="200" Grid.Row="0" VerticalOptions="StartAndExpand"/>
+                <Frame CornerRadius="20" Padding="0" Grid.RowSpan="2"
+                     VerticalOptions="EndAndExpand" HorizontalOptions="Center"
+                     IsClippedToBounds="False" HasShadow="True" HeightRequest="200" BackgroundColor="White"
+                     WidthRequest="325">
+                    <StackLayout>
+                        <Frame CornerRadius="20" Padding="0" Grid.RowSpan="2"
+                            VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+                            IsClippedToBounds="True" HasShadow="True" BackgroundColor="Transparent"
+                            HeightRequest="110" WidthRequest="200">
+                            <Image Source="{Binding OrgPhotoName}" HorizontalOptions="Center"  Grid.RowSpan="2"
+                                VerticalOptions="EndAndExpand" x:Name="postPhoto" BindingContext="{Binding OrgPhotoName}"/>
+                        </Frame>
+                        <Label Text="{Binding OrgName}" FontSize="Large" Grid.RowSpan="2" TextColor="Black" 
+                               HorizontalOptions="Center" Margin="0,-30,0,20" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Frame CornerRadius="20" Padding="0"
+                     VerticalOptions="StartAndExpand" HorizontalOptions="Center"
+                     IsClippedToBounds="False" HasShadow="True" BackgroundColor="White"
+                     WidthRequest="325">
+                <StackLayout>
+                    <Grid RowSpacing="0" ColumnSpacing="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"></ColumnDefinition>
+                            <ColumnDefinition Width="15*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Frame CornerRadius="20" Padding="10" Margin="10"
+                            VerticalOptions="StartAndExpand" HorizontalOptions="Center"
+                            IsClippedToBounds="False" HasShadow="True" BackgroundColor="#ddbea9"
+                            WidthRequest="150" Grid.Row="0" Grid.ColumnSpan="2">
+                            <Image Source="about.png" HorizontalOptions="Start"
+                                       Grid.Row="0" Grid.Column="0"/>
+                        </Frame>
+                        <Label Text="About Us" TextColor="White" FontSize="Medium" 
+                               FontAttributes="Bold" TextTransform="Uppercase" VerticalOptions="Center"
+                                       Grid.Row="0" Grid.Column="1"/>
+                    </Grid>
+                    <local:JustifiedLabel Text="{Binding OrgLongDescr}" FontSize="Large" TextColor="Black" 
+                           VerticalOptions="CenterAndExpand" HorizontalOptions="Center" WidthRequest="275"
+                           Margin="0, 0, 0, 10"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame CornerRadius="20" Padding="0"
+                     VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="Transparent"
+                     IsClippedToBounds="True" HasShadow="False" IsVisible="False" x:Name="logoFr" WidthRequest="325">
+                <Image Source="" HorizontalOptions="Center"
+                           VerticalOptions="EndAndExpand" x:Name="postLogo" BindingContext="{Binding OrgLogoName}"/>
+            </Frame>
+
+            <Button Text="Visit" TextColor="Black" CornerRadius="20"
+                    FontSize="Large"  WidthRequest="250" HorizontalOptions="Center"
+                    BackgroundColor="Transparent" BorderWidth="1" BorderColor="Black"
+                    HeightRequest="50" Margin="0, 0, 0, 30" VerticalOptions="StartAndExpand"
+                    Style="{StaticResource PrimaryBtnStyle}"
+                    Clicked="VisitClicked" BindingContext="{Binding OrgLink}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

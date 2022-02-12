@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.Views.MethodPage" BackgroundImageSource="img.jpg"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.NavBarIsVisible="False">
+    <StackLayout Orientation="Vertical" Padding="20">
+        <Image Source="logo.png" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200"/>
+        <Frame BackgroundColor="White" HasShadow="False" CornerRadius="10" HeightRequest="350" WidthRequest="300" Margin="0, -20, 0, 0">
+            <StackLayout Orientation="Vertical" Spacing="20">
+                <Label FontSize="Title" TextColor="Black" Text="Join our community" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                <Label FontSize="Subtitle"  Text="Set your heart on doing good." FontAttributes="Bold" HorizontalOptions="Center"></Label>
+
+                <ProgressBar Progress="0.3333" WidthRequest="250" HorizontalOptions="Center"></ProgressBar>
+
+                <Button Text="Login" TextColor="Black" CornerRadius="20" FontSize="Medium" 
+                        BackgroundColor="Transparent"  BorderWidth="1" BorderColor="Black"
+                        WidthRequest="250" HorizontalOptions="Center" HeightRequest="50"
+                        Clicked="ClickedLogin" Style="{StaticResource PrimaryBtnStyle}"/>
+
+                <Button Text="Register" TextColor="Black" CornerRadius="20"
+                    FontSize="Medium"  WidthRequest="250" HorizontalOptions="Center"
+                    BackgroundColor="Transparent" BorderWidth="1" BorderColor="#a4a3a1"
+                        HeightRequest="50" Clicked="ClickedRegister" Style="{StaticResource SecondaryBtnStyle}"/>
+
+                <Button Text="Previous" TextColor="White" CornerRadius="20" FontAttributes="Bold"
+                    FontSize="Medium" HeightRequest="50" Margin="20"
+                    BackgroundColor="#508991" WidthRequest="130" HorizontalOptions="Center"
+                        Clicked="OnPreviousPageButtonClicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

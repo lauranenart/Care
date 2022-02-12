@@ -1,0 +1,559 @@
+2021-12-17 00:23:23.007 +02:00 [INF] It took 4520 ms to perform Item/GetItems
+2021-12-17 00:23:23.931 +02:00 [INF] It took 159 ms to perform User/GetUsers
+2021-12-17 00:23:24.423 +02:00 [INF] It took 466 ms to perform Item/GetItems
+2021-12-17 00:23:48.133 +02:00 [INF] It took 1985 ms to perform Item/PostItemModel
+2021-12-17 00:23:48.335 +02:00 [INF] It took 148 ms to perform Item/GetItems
+2021-12-17 00:23:48.488 +02:00 [INF] It took 141 ms to perform User/GetUsers
+2021-12-17 00:23:48.577 +02:00 [INF] It took 68 ms to perform Item/GetItems
+2021-12-17 00:26:09.735 +02:00 [INF] It took 1882 ms to perform User/GetUserByEmail
+2021-12-17 00:26:17.204 +02:00 [INF] It took 6757 ms to perform User/GetUserByEmail
+2021-12-17 00:26:17.699 +02:00 [INF] It took 196 ms to perform Post/GetPosts
+2021-12-17 00:26:21.806 +02:00 [INF] It took 49 ms to perform Item/GetItems
+2021-12-17 00:26:37.863 +02:00 [INF] It took 44 ms to perform User/GetUsers
+2021-12-17 00:26:37.913 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 00:32:58.094 +02:00 [INF] It took 4790 ms to perform User/GetUserByEmail
+2021-12-17 00:32:58.899 +02:00 [INF] It took 61 ms to perform User/GetUserByEmail
+2021-12-17 00:32:59.312 +02:00 [INF] It took 89 ms to perform Post/GetPosts
+2021-12-17 00:33:03.997 +02:00 [INF] It took 1725 ms to perform User/GetUsers
+2021-12-17 00:33:04.078 +02:00 [INF] It took 48 ms to perform Item/GetItems
+2021-12-17 00:33:04.191 +02:00 [INF] It took 42 ms to perform User/GetUsers
+2021-12-17 00:33:04.241 +02:00 [INF] It took 39 ms to perform Item/GetItems
+2021-12-17 00:33:04.305 +02:00 [INF] It took 41 ms to perform User/GetUsers
+2021-12-17 00:33:04.371 +02:00 [INF] It took 41 ms to perform Item/GetItems
+2021-12-17 00:33:06.969 +02:00 [INF] It took 40 ms to perform Item/GetItems
+2021-12-17 00:34:29.560 +02:00 [INF] It took 12008 ms to perform User/GetUserByEmail
+2021-12-17 00:34:30.333 +02:00 [INF] It took 57 ms to perform User/GetUserByEmail
+2021-12-17 00:34:30.714 +02:00 [INF] It took 56 ms to perform Post/GetPosts
+2021-12-17 00:34:34.725 +02:00 [INF] It took 74 ms to perform Item/GetItems
+2021-12-17 00:34:48.093 +02:00 [INF] It took 4221 ms to perform User/GetUsers
+2021-12-17 00:35:45.879 +02:00 [INF] It took 2350 ms to perform User/GetUserByEmail
+2021-12-17 00:35:46.704 +02:00 [INF] It took 83 ms to perform User/GetUserByEmail
+2021-12-17 00:35:47.217 +02:00 [INF] It took 165 ms to perform Post/GetPosts
+2021-12-17 00:35:50.265 +02:00 [INF] It took 45 ms to perform Item/GetItems
+2021-12-17 00:35:52.567 +02:00 [INF] It took 40 ms to perform User/GetUsers
+2021-12-17 00:35:52.614 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 00:37:52.283 +02:00 [INF] It took 5129 ms to perform User/GetUsers
+2021-12-17 00:37:52.374 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 00:37:52.440 +02:00 [INF] It took 38 ms to perform User/GetUsers
+2021-12-17 00:37:52.536 +02:00 [INF] It took 56 ms to perform Item/GetItems
+2021-12-17 00:37:52.664 +02:00 [INF] It took 84 ms to perform User/GetUsers
+2021-12-17 00:37:52.713 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 00:37:55.198 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 00:40:10.858 +02:00 [INF] It took 1279 ms to perform User/GetUserByEmail
+2021-12-17 00:40:11.624 +02:00 [INF] It took 58 ms to perform User/GetUserByEmail
+2021-12-17 00:40:12.026 +02:00 [INF] It took 136 ms to perform Post/GetPosts
+2021-12-17 00:40:14.981 +02:00 [INF] It took 51 ms to perform Item/GetItems
+2021-12-17 00:40:58.018 +02:00 [INF] It took 2369 ms to perform User/GetUsers
+2021-12-17 00:40:58.113 +02:00 [INF] It took 57 ms to perform Item/GetItems
+2021-12-17 00:42:15.365 +02:00 [INF] It took 4636 ms to perform User/GetUserByEmail
+2021-12-17 00:42:16.453 +02:00 [INF] It took 386 ms to perform User/GetUserByEmail
+2021-12-17 00:42:16.881 +02:00 [INF] It took 118 ms to perform Post/GetPosts
+2021-12-17 00:42:19.308 +02:00 [INF] It took 81 ms to perform Item/GetItems
+2021-12-17 00:42:19.464 +02:00 [INF] It took 101 ms to perform User/GetUsers
+2021-12-17 00:42:19.531 +02:00 [INF] It took 40 ms to perform Item/GetItems
+2021-12-17 00:43:42.420 +02:00 [INF] It took 1344 ms to perform User/GetUserByEmail
+2021-12-17 00:43:43.261 +02:00 [INF] It took 111 ms to perform User/GetUserByEmail
+2021-12-17 00:43:43.714 +02:00 [INF] It took 109 ms to perform Post/GetPosts
+2021-12-17 00:43:46.772 +02:00 [INF] It took 42 ms to perform Item/GetItems
+2021-12-17 00:45:33.486 +02:00 [INF] It took 1449 ms to perform User/GetUserByEmail
+2021-12-17 00:45:34.271 +02:00 [INF] It took 59 ms to perform User/GetUserByEmail
+2021-12-17 00:45:34.705 +02:00 [INF] It took 125 ms to perform Post/GetPosts
+2021-12-17 00:45:38.438 +02:00 [INF] It took 57 ms to perform User/GetUsers
+2021-12-17 00:45:38.542 +02:00 [INF] It took 60 ms to perform Item/GetItems
+2021-12-17 00:45:38.653 +02:00 [INF] It took 41 ms to perform User/GetUsers
+2021-12-17 00:45:38.741 +02:00 [INF] It took 41 ms to perform Item/GetItems
+2021-12-17 00:45:38.812 +02:00 [INF] It took 38 ms to perform User/GetUsers
+2021-12-17 00:45:38.860 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 00:45:46.272 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:00:33.135 +02:00 [INF] It took 1305 ms to perform User/GetUserByEmail
+2021-12-17 01:00:33.994 +02:00 [INF] It took 153 ms to perform User/GetUserByEmail
+2021-12-17 01:00:34.644 +02:00 [INF] It took 288 ms to perform Post/GetPosts
+2021-12-17 01:00:46.336 +02:00 [INF] It took 47 ms to perform Item/GetItems
+2021-12-17 01:00:46.416 +02:00 [INF] It took 50 ms to perform User/GetUsers
+2021-12-17 01:00:46.494 +02:00 [INF] It took 38 ms to perform Item/GetItems
+2021-12-17 01:00:58.825 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:00:58.906 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 01:00:58.953 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:01:02.897 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 01:01:02.948 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 01:01:02.997 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:01:05.533 +02:00 [INF] It took 62 ms to perform Item/GetItems
+2021-12-17 01:01:05.737 +02:00 [INF] It took 135 ms to perform User/GetUsers
+2021-12-17 01:01:05.908 +02:00 [INF] It took 140 ms to perform Item/GetItems
+2021-12-17 01:01:19.252 +02:00 [INF] It took 109 ms to perform User/GetUserByEmail
+2021-12-17 01:01:19.303 +02:00 [INF] It took 34 ms to perform User/GetUserByEmail
+2021-12-17 01:01:19.501 +02:00 [INF] It took 89 ms to perform Post/GetPosts
+2021-12-17 01:01:22.338 +02:00 [INF] It took 166 ms to perform Item/GetItems
+2021-12-17 01:01:22.566 +02:00 [INF] It took 172 ms to perform User/GetUsers
+2021-12-17 01:01:22.719 +02:00 [INF] It took 130 ms to perform Item/GetItems
+2021-12-17 01:01:25.496 +02:00 [INF] It took 37 ms to perform User/GetUsers
+2021-12-17 01:01:25.574 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:01:26.021 +02:00 [INF] It took 37 ms to perform User/GetUsers
+2021-12-17 01:01:26.088 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:01:26.199 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 01:01:26.255 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:01:26.395 +02:00 [INF] It took 42 ms to perform User/GetUsers
+2021-12-17 01:01:26.442 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:01:26.575 +02:00 [INF] It took 38 ms to perform User/GetUsers
+2021-12-17 01:01:26.630 +02:00 [INF] It took 41 ms to perform Item/GetItems
+2021-12-17 01:01:29.167 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:01:29.217 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 01:01:29.265 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 01:16:00.553 +02:00 [INF] It took 1305 ms to perform User/GetUserByEmail
+2021-12-17 01:16:01.503 +02:00 [INF] It took 62 ms to perform User/GetUserByEmail
+2021-12-17 01:16:01.900 +02:00 [INF] It took 61 ms to perform Post/GetPosts
+2021-12-17 01:16:04.606 +02:00 [INF] It took 46 ms to perform Item/GetItems
+2021-12-17 01:16:14.687 +02:00 [INF] It took 214 ms to perform User/GetUsers
+2021-12-17 01:16:14.895 +02:00 [INF] It took 193 ms to perform Item/GetItems
+2021-12-17 01:18:11.920 +02:00 [INF] It took 1292 ms to perform User/GetUserByEmail
+2021-12-17 01:18:12.829 +02:00 [INF] It took 62 ms to perform User/GetUserByEmail
+2021-12-17 01:18:13.294 +02:00 [INF] It took 101 ms to perform Post/GetPosts
+2021-12-17 01:18:21.023 +02:00 [INF] It took 45 ms to perform Item/GetItems
+2021-12-17 01:18:21.101 +02:00 [INF] It took 41 ms to perform User/GetUsers
+2021-12-17 01:18:21.150 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:25:12.964 +02:00 [INF] It took 2002 ms to perform User/GetUserByEmail
+2021-12-17 01:25:13.911 +02:00 [INF] It took 63 ms to perform User/GetUserByEmail
+2021-12-17 01:25:14.346 +02:00 [INF] It took 90 ms to perform Post/GetPosts
+2021-12-17 01:25:17.222 +02:00 [INF] It took 63 ms to perform Item/GetItems
+2021-12-17 01:25:17.335 +02:00 [INF] It took 69 ms to perform User/GetUsers
+2021-12-17 01:25:17.394 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:25:25.549 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:25:25.641 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 01:25:25.687 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 01:25:30.591 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:25:30.646 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 01:25:30.695 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:25:34.392 +02:00 [INF] It took 806 ms to perform User/GetUsers
+2021-12-17 01:25:34.558 +02:00 [INF] It took 153 ms to perform Item/GetItems
+2021-12-17 01:25:34.820 +02:00 [INF] It took 138 ms to perform User/GetUsers
+2021-12-17 01:25:34.971 +02:00 [INF] It took 138 ms to perform Item/GetItems
+2021-12-17 01:25:35.209 +02:00 [INF] It took 177 ms to perform User/GetUsers
+2021-12-17 01:25:35.261 +02:00 [INF] It took 38 ms to perform Item/GetItems
+2021-12-17 01:25:37.812 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:25:37.864 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 01:25:37.920 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:25:54.170 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 01:25:54.219 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 01:25:54.265 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 01:26:14.023 +02:00 [INF] It took 8526 ms to perform User/GetUsers
+2021-12-17 01:26:14.107 +02:00 [INF] It took 66 ms to perform Item/GetItems
+2021-12-17 01:26:16.615 +02:00 [INF] It took 47 ms to perform Item/GetItems
+2021-12-17 01:26:20.471 +02:00 [INF] It took 3839 ms to perform User/GetUsers
+2021-12-17 01:26:20.656 +02:00 [INF] It took 142 ms to perform Item/GetItems
+2021-12-17 01:26:35.976 +02:00 [INF] It took 39 ms to perform User/GetUserByEmail
+2021-12-17 01:26:36.026 +02:00 [INF] It took 34 ms to perform User/GetUserByEmail
+2021-12-17 01:26:36.166 +02:00 [INF] It took 67 ms to perform Post/GetPosts
+2021-12-17 01:26:39.363 +02:00 [INF] It took 71 ms to perform Item/GetItems
+2021-12-17 01:26:39.413 +02:00 [INF] It took 38 ms to perform User/GetUsers
+2021-12-17 01:26:39.460 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 01:26:45.484 +02:00 [INF] It took 2480 ms to perform User/GetUsers
+2021-12-17 01:26:45.689 +02:00 [INF] It took 154 ms to perform Item/GetItems
+2021-12-17 01:29:24.598 +02:00 [INF] It took 1958 ms to perform User/GetUserByEmail
+2021-12-17 01:29:25.516 +02:00 [INF] It took 72 ms to perform User/GetUserByEmail
+2021-12-17 01:29:26.017 +02:00 [INF] It took 190 ms to perform Post/GetPosts
+2021-12-17 01:29:29.206 +02:00 [INF] It took 119 ms to perform Item/GetItems
+2021-12-17 01:29:29.286 +02:00 [INF] It took 42 ms to perform User/GetUsers
+2021-12-17 01:29:29.337 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:29:34.288 +02:00 [INF] It took 2013 ms to perform User/GetUsers
+2021-12-17 01:29:34.486 +02:00 [INF] It took 149 ms to perform Item/GetItems
+2021-12-17 01:32:01.091 +02:00 [INF] It took 1176 ms to perform User/GetUserByEmail
+2021-12-17 01:32:02.061 +02:00 [INF] It took 65 ms to perform User/GetUserByEmail
+2021-12-17 01:32:02.454 +02:00 [INF] It took 63 ms to perform Post/GetPosts
+2021-12-17 01:32:04.936 +02:00 [INF] It took 45 ms to perform Item/GetItems
+2021-12-17 01:32:05.022 +02:00 [INF] It took 41 ms to perform User/GetUsers
+2021-12-17 01:32:05.074 +02:00 [INF] It took 38 ms to perform Item/GetItems
+2021-12-17 01:32:11.048 +02:00 [INF] It took 728 ms to perform User/GetUsers
+2021-12-17 01:32:11.410 +02:00 [INF] It took 350 ms to perform Item/GetItems
+2021-12-17 01:33:43.617 +02:00 [INF] It took 1262 ms to perform User/GetUserByEmail
+2021-12-17 01:33:44.598 +02:00 [INF] It took 84 ms to perform User/GetUserByEmail
+2021-12-17 01:33:45.053 +02:00 [INF] It took 137 ms to perform Post/GetPosts
+2021-12-17 01:33:48.786 +02:00 [INF] It took 73 ms to perform Item/GetItems
+2021-12-17 01:33:48.927 +02:00 [INF] It took 99 ms to perform User/GetUsers
+2021-12-17 01:33:49.007 +02:00 [INF] It took 63 ms to perform Item/GetItems
+2021-12-17 01:33:53.604 +02:00 [INF] It took 299 ms to perform User/GetUsers
+2021-12-17 01:33:53.720 +02:00 [INF] It took 103 ms to perform Item/GetItems
+2021-12-17 01:35:11.195 +02:00 [INF] It took 1833 ms to perform User/GetUserByEmail
+2021-12-17 01:35:12.170 +02:00 [INF] It took 76 ms to perform User/GetUserByEmail
+2021-12-17 01:35:12.693 +02:00 [INF] It took 182 ms to perform Post/GetPosts
+2021-12-17 01:35:15.801 +02:00 [INF] It took 63 ms to perform Item/GetItems
+2021-12-17 01:35:15.941 +02:00 [INF] It took 101 ms to perform User/GetUsers
+2021-12-17 01:35:16.003 +02:00 [INF] It took 49 ms to perform Item/GetItems
+2021-12-17 01:35:20.220 +02:00 [INF] It took 156 ms to perform User/GetUsers
+2021-12-17 01:35:20.296 +02:00 [INF] It took 62 ms to perform Item/GetItems
+2021-12-17 01:41:58.428 +02:00 [INF] It took 3255 ms to perform User/GetUserByEmail
+2021-12-17 01:41:59.387 +02:00 [INF] It took 62 ms to perform User/GetUserByEmail
+2021-12-17 01:42:10.043 +02:00 [INF] It took 42 ms to perform User/GetUserByEmail
+2021-12-17 01:42:10.094 +02:00 [INF] It took 34 ms to perform User/GetUserByEmail
+2021-12-17 01:42:14.027 +02:00 [INF] It took 3571 ms to perform Post/GetPosts
+2021-12-17 01:42:27.233 +02:00 [INF] It took 4968 ms to perform Item/GetItems
+2021-12-17 01:42:28.975 +02:00 [INF] It took 1707 ms to perform User/GetUsers
+2021-12-17 01:42:29.027 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:42:41.787 +02:00 [INF] It took 2282 ms to perform Item/GetItems
+2021-12-17 01:42:44.258 +02:00 [INF] It took 2423 ms to perform User/GetUsers
+2021-12-17 01:42:44.343 +02:00 [INF] It took 39 ms to perform Item/GetItems
+2021-12-17 01:42:52.893 +02:00 [INF] It took 1749 ms to perform Item/GetItems
+2021-12-17 01:42:53.401 +02:00 [INF] It took 445 ms to perform User/GetUsers
+2021-12-17 01:42:53.451 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:43:10.673 +02:00 [INF] It took 965 ms to perform Item/GetItems
+2021-12-17 01:43:10.721 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 01:43:10.784 +02:00 [INF] It took 47 ms to perform Item/GetItems
+2021-12-17 01:43:42.260 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:44:12.170 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 01:44:12.215 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 01:45:10.089 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 01:45:11.406 +02:00 [INF] It took 108 ms to perform Item/GetItems
+2021-12-17 01:49:13.628 +02:00 [INF] It took 1336 ms to perform Item/GetItems
+2021-12-17 01:49:31.396 +02:00 [INF] It took 77 ms to perform User/GetUsers
+2021-12-17 01:49:31.462 +02:00 [INF] It took 43 ms to perform Item/GetItems
+2021-12-17 01:52:30.311 +02:00 [INF] It took 1299 ms to perform Item/GetItems
+2021-12-17 01:52:31.234 +02:00 [INF] It took 85 ms to perform User/GetUsers
+2021-12-17 01:52:31.322 +02:00 [INF] It took 64 ms to perform Item/GetItems
+2021-12-17 01:52:42.891 +02:00 [INF] It took 809 ms to perform User/GetUsers
+2021-12-17 01:52:42.942 +02:00 [INF] It took 39 ms to perform Item/GetItems
+2021-12-17 01:52:43.162 +02:00 [INF] It took 85 ms to perform User/GetUsers
+2021-12-17 01:52:43.214 +02:00 [INF] It took 40 ms to perform Item/GetItems
+2021-12-17 01:52:45.813 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:52:45.870 +02:00 [INF] It took 37 ms to perform User/GetUsers
+2021-12-17 01:52:45.931 +02:00 [INF] It took 38 ms to perform Item/GetItems
+2021-12-17 01:52:51.110 +02:00 [INF] It took 43 ms to perform Item/GetItems
+2021-12-17 01:52:51.174 +02:00 [INF] It took 38 ms to perform User/GetUsers
+2021-12-17 01:52:51.232 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:52:57.428 +02:00 [INF] It took 101 ms to perform Item/GetItems
+2021-12-17 01:52:57.598 +02:00 [INF] It took 154 ms to perform User/GetUsers
+2021-12-17 01:52:57.645 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:53:02.932 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:53:02.987 +02:00 [INF] It took 37 ms to perform User/GetUsers
+2021-12-17 01:53:03.038 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:53:06.223 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:53:06.280 +02:00 [INF] It took 38 ms to perform User/GetUsers
+2021-12-17 01:53:06.332 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:53:08.792 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 01:53:08.849 +02:00 [INF] It took 37 ms to perform User/GetUsers
+2021-12-17 01:53:08.896 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:53:21.164 +02:00 [INF] It took 163 ms to perform User/GetUserByEmail
+2021-12-17 01:53:21.222 +02:00 [INF] It took 39 ms to perform User/GetUserByEmail
+2021-12-17 01:53:21.436 +02:00 [INF] It took 78 ms to perform Post/GetPosts
+2021-12-17 01:53:24.198 +02:00 [INF] It took 63 ms to perform Item/GetItems
+2021-12-17 01:53:24.259 +02:00 [INF] It took 37 ms to perform User/GetUsers
+2021-12-17 01:53:24.309 +02:00 [INF] It took 37 ms to perform Item/GetItems
+2021-12-17 01:53:36.980 +02:00 [INF] It took 6076 ms to perform Item/GetItems
+2021-12-17 01:53:37.306 +02:00 [INF] It took 315 ms to perform User/GetUsers
+2021-12-17 01:53:37.404 +02:00 [INF] It took 84 ms to perform Item/GetItems
+2021-12-17 01:53:38.082 +02:00 [INF] It took 39 ms to perform Item/GetItems
+2021-12-17 01:53:38.136 +02:00 [INF] It took 43 ms to perform User/GetUsers
+2021-12-17 01:53:38.196 +02:00 [INF] It took 41 ms to perform Item/GetItems
+2021-12-17 01:53:50.195 +02:00 [INF] It took 5250 ms to perform Item/GetItems
+2021-12-17 01:53:50.941 +02:00 [INF] It took 733 ms to perform User/GetUsers
+2021-12-17 01:53:51.117 +02:00 [INF] It took 162 ms to perform Item/GetItems
+2021-12-17 01:53:53.125 +02:00 [INF] It took 219 ms to perform User/GetUsers
+2021-12-17 01:53:53.249 +02:00 [INF] It took 113 ms to perform Item/GetItems
+2021-12-17 01:53:53.605 +02:00 [INF] It took 234 ms to perform User/GetUsers
+2021-12-17 01:53:53.901 +02:00 [INF] It took 284 ms to perform Item/GetItems
+2021-12-17 01:53:55.746 +02:00 [INF] It took 177 ms to perform User/GetUsers
+2021-12-17 01:53:55.872 +02:00 [INF] It took 117 ms to perform Item/GetItems
+2021-12-17 01:53:56.009 +02:00 [INF] It took 93 ms to perform Item/GetItems
+2021-12-17 01:53:56.626 +02:00 [INF] It took 599 ms to perform User/GetUsers
+2021-12-17 01:54:01.620 +02:00 [INF] It took 4982 ms to perform Item/GetItems
+2021-12-17 01:54:04.963 +02:00 [INF] It took 352 ms to perform Item/GetItems
+2021-12-17 01:54:05.240 +02:00 [INF] It took 266 ms to perform User/GetUsers
+2021-12-17 01:54:05.567 +02:00 [INF] It took 315 ms to perform Item/GetItems
+2021-12-17 02:11:14.214 +02:00 [INF] It took 1240 ms to perform User/GetUserByEmail
+2021-12-17 02:11:15.732 +02:00 [INF] It took 593 ms to perform User/PostUserModel
+2021-12-17 02:11:15.934 +02:00 [INF] It took 167 ms to perform User/GetUserByEmail
+2021-12-17 02:11:21.150 +02:00 [INF] It took 50 ms to perform User/GetUsers
+2021-12-17 02:11:26.827 +02:00 [INF] It took 47 ms to perform Post/GetPosts
+2021-12-17 02:13:37.586 +02:00 [INF] It took 67 ms to perform Item/GetItems
+2021-12-17 02:13:38.037 +02:00 [INF] It took 372 ms to perform User/GetUsers
+2021-12-17 02:13:38.097 +02:00 [INF] It took 39 ms to perform Item/GetItems
+2021-12-17 02:13:39.813 +02:00 [INF] It took 39 ms to perform User/GetUsers
+2021-12-17 02:13:39.865 +02:00 [INF] It took 40 ms to perform Post/GetPosts
+2021-12-17 02:13:58.198 +02:00 [INF] It took 44 ms to perform User/GetUserByEmail
+2021-12-17 02:13:58.248 +02:00 [INF] It took 37 ms to perform User/GetUserByEmail
+2021-12-17 02:14:06.902 +02:00 [INF] It took 229 ms to perform User/GetUserByEmail
+2021-12-17 02:14:06.956 +02:00 [INF] It took 38 ms to perform User/GetUserByEmail
+2021-12-17 02:14:45.593 +02:00 [INF] It took 1265 ms to perform User/GetUserByEmail
+2021-12-17 02:14:45.677 +02:00 [INF] It took 39 ms to perform User/GetUserByEmail
+2021-12-17 02:14:45.783 +02:00 [INF] It took 62 ms to perform Post/GetPosts
+2021-12-17 02:15:21.935 +02:00 [INF] It took 90 ms to perform User/GetUserByEmail
+2021-12-17 02:15:23.542 +02:00 [INF] It took 1595 ms to perform User/PostUserModel
+2021-12-17 02:15:23.708 +02:00 [INF] It took 153 ms to perform User/GetUserByEmail
+2021-12-17 02:15:24.766 +02:00 [INF] It took 1007 ms to perform User/GetUsers
+2021-12-17 02:15:25.169 +02:00 [INF] It took 374 ms to perform Post/GetPosts
+2021-12-17 03:17:26.599 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 03:17:27.615 +02:00 [INF] It took 1616 ms to perform Item/GetItems
+2021-12-17 03:17:28.336 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 03:17:28.377 +02:00 [INF] It took 72 ms to perform Item/GetItems
+2021-12-17 03:17:33.029 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 03:17:33.076 +02:00 [INF] It took 65 ms to perform Post/GetPosts
+2021-12-17 03:17:33.873 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 03:17:34.014 +02:00 [INF] It took 145 ms to perform Post/GetPosts
+2021-12-17 03:17:39.707 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 03:17:39.777 +02:00 [INF] It took 80 ms to perform User/GetUsers
+2021-12-17 10:18:45.464 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:18:46.534 +02:00 [INF] It took 2386 ms to perform Item/GetItems
+2021-12-17 10:18:48.226 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:18:48.288 +02:00 [INF] It took 204 ms to perform User/GetUsers
+2021-12-17 10:18:48.398 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:18:48.436 +02:00 [INF] It took 62 ms to perform Item/GetItems
+2021-12-17 10:23:28.333 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:23:29.118 +02:00 [INF] It took 1264 ms to perform Item/GetItems
+2021-12-17 10:23:30.922 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:23:30.961 +02:00 [INF] It took 82 ms to perform User/GetUsers
+2021-12-17 10:23:30.994 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:23:31.029 +02:00 [INF] It took 41 ms to perform Item/GetItems
+2021-12-17 10:23:39.799 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:23:39.835 +02:00 [INF] It took 38 ms to perform Item/GetItems
+2021-12-17 10:23:39.894 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:23:39.930 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 10:23:39.964 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:23:39.998 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 10:24:45.746 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 10:24:45.782 +02:00 [INF] It took 156 ms to perform User/GetUserByEmail
+2021-12-17 10:24:45.813 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 10:24:45.846 +02:00 [INF] It took 37 ms to perform User/GetUserByEmail
+2021-12-17 10:24:46.035 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 10:24:46.077 +02:00 [INF] It took 48 ms to perform Post/GetPosts
+2021-12-17 10:25:05.155 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 10:25:05.188 +02:00 [INF] It took 91 ms to perform Post/GetPostModel
+2021-12-17 10:25:05.446 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 10:25:05.480 +02:00 [INF] It took 38 ms to perform Post/GetPostModel
+2021-12-17 10:25:13.419 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 10:25:13.456 +02:00 [INF] It took 38 ms to perform Post/GetPosts
+2021-12-17 10:25:17.536 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:25:17.570 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 10:25:17.589 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:25:17.623 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 10:25:17.672 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:25:17.706 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 10:25:17.726 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:25:17.759 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 10:25:17.773 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:25:17.807 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 10:25:17.841 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:25:17.875 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 10:25:26.262 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:25:26.298 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 10:25:26.330 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:25:26.364 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 10:25:36.115 +02:00 [INF] Method ItemController/GetItemModel used.
+2021-12-17 10:25:36.149 +02:00 [INF] It took 49 ms to perform Item/GetItemModel
+2021-12-17 10:25:51.842 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:25:51.875 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 10:25:51.902 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:25:51.954 +02:00 [INF] It took 51 ms to perform User/GetUsers
+2021-12-17 10:25:51.969 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:25:52.003 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 10:26:10.122 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:10.156 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 10:26:10.212 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:26:10.246 +02:00 [INF] It took 36 ms to perform User/GetUsers
+2021-12-17 10:26:10.298 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:10.334 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 10:26:11.794 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:26:11.828 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 10:26:11.879 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:11.913 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 10:26:12.127 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:26:12.161 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 10:26:12.194 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:12.228 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 10:26:13.843 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:13.880 +02:00 [INF] It took 39 ms to perform Item/GetItems
+2021-12-17 10:26:13.977 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:26:14.012 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 10:26:14.082 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:14.116 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 10:26:23.651 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:23.684 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 10:26:23.722 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:26:23.755 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 10:26:23.783 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:26:23.816 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 10:27:14.720 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:27:14.753 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 10:27:14.773 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 10:27:14.805 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 10:27:14.819 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 10:27:14.852 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:00:30.239 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:00:31.215 +02:00 [INF] It took 1459 ms to perform User/GetUserByEmail
+2021-12-17 11:00:31.958 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:00:31.994 +02:00 [INF] It took 58 ms to perform User/GetUserByEmail
+2021-12-17 11:00:32.311 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 11:00:32.376 +02:00 [INF] It took 79 ms to perform Post/GetPosts
+2021-12-17 11:00:34.479 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 11:00:34.514 +02:00 [INF] It took 48 ms to perform Post/GetPostModel
+2021-12-17 11:00:34.614 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 11:00:34.652 +02:00 [INF] It took 39 ms to perform Post/GetPostModel
+2021-12-17 11:00:37.170 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 11:00:37.206 +02:00 [INF] It took 36 ms to perform Post/GetPosts
+2021-12-17 11:00:39.871 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 11:00:39.907 +02:00 [INF] It took 37 ms to perform Post/GetPostModel
+2021-12-17 11:00:39.924 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 11:00:39.959 +02:00 [INF] It took 36 ms to perform Post/GetPostModel
+2021-12-17 11:00:43.949 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 11:00:43.986 +02:00 [INF] It took 36 ms to perform Post/GetPosts
+2021-12-17 11:40:08.851 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:09.447 +02:00 [INF] It took 602 ms to perform Item/GetItems
+2021-12-17 11:40:10.207 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:40:10.240 +02:00 [INF] It took 37 ms to perform User/GetUsers
+2021-12-17 11:40:10.261 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:10.293 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:40:35.472 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:35.505 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:40:35.547 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:40:35.580 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:40:35.593 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:35.628 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 11:40:53.690 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:40:53.723 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:40:53.734 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:53.768 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 11:40:56.782 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:40:56.816 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 11:40:56.850 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:56.883 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 11:40:58.185 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:58.218 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:40:58.235 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:40:58.269 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 11:40:58.285 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:40:58.318 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:41:12.637 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:41:12.675 +02:00 [INF] It took 38 ms to perform Item/GetItems
+2021-12-17 11:41:12.693 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:41:12.733 +02:00 [INF] It took 40 ms to perform User/GetUsers
+2021-12-17 11:41:12.771 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:41:12.806 +02:00 [INF] It took 36 ms to perform Item/GetItems
+2021-12-17 11:41:17.585 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:41:17.618 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:41:17.630 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:41:17.663 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 11:41:17.675 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:41:17.709 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 11:41:33.291 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:41:33.325 +02:00 [INF] It took 33 ms to perform User/GetUserByEmail
+2021-12-17 11:41:33.336 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:41:33.369 +02:00 [INF] It took 33 ms to perform User/GetUserByEmail
+2021-12-17 11:41:33.479 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 11:41:33.554 +02:00 [INF] It took 75 ms to perform Post/GetPosts
+2021-12-17 11:41:51.813 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:41:51.845 +02:00 [INF] It took 33 ms to perform User/GetUserByEmail
+2021-12-17 11:41:52.149 +02:00 [INF] Method UserController/PostUserModel used.
+2021-12-17 11:41:52.292 +02:00 [INF] It took 256 ms to perform User/PostUserModel
+2021-12-17 11:41:52.317 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:41:52.349 +02:00 [INF] It took 33 ms to perform User/GetUserByEmail
+2021-12-17 11:41:52.396 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:41:52.476 +02:00 [INF] It took 80 ms to perform User/GetUsers
+2021-12-17 11:41:52.495 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 11:41:52.528 +02:00 [INF] It took 32 ms to perform Post/GetPosts
+2021-12-17 11:42:06.133 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 11:42:06.167 +02:00 [INF] It took 34 ms to perform Post/GetPostModel
+2021-12-17 11:42:06.207 +02:00 [INF] Method PostController/GetPostModel used.
+2021-12-17 11:42:06.240 +02:00 [INF] It took 33 ms to perform Post/GetPostModel
+2021-12-17 11:42:19.352 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:19.385 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:42:19.400 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 11:42:19.432 +02:00 [INF] It took 32 ms to perform Post/GetPosts
+2021-12-17 11:42:22.107 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:22.139 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:22.182 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:22.216 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:42:22.229 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:22.262 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:30.995 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:31.028 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:31.045 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:31.080 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 11:42:31.107 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:31.140 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:33.322 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:33.355 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:42:33.367 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:33.399 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:42:33.814 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:33.846 +02:00 [INF] It took 32 ms to perform User/GetUsers
+2021-12-17 11:42:33.860 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:33.892 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:34.479 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:34.512 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:42:34.524 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:34.557 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:42:34.638 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:34.671 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:42:34.686 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:34.719 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:42:34.736 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:34.768 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:42:38.029 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:38.061 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:38.076 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:38.109 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:42:38.124 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:38.159 +02:00 [INF] It took 35 ms to perform Item/GetItems
+2021-12-17 11:42:42.121 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:42.154 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:42:42.186 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:42.219 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:42.246 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:42.280 +02:00 [INF] It took 34 ms to perform User/GetUsers
+2021-12-17 11:42:42.292 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:42.325 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:42:42.349 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:42:42.381 +02:00 [INF] It took 32 ms to perform User/GetUsers
+2021-12-17 11:42:42.394 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:42:42.428 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 11:43:28.633 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:43:28.666 +02:00 [INF] It took 33 ms to perform User/GetUserByEmail
+2021-12-17 11:43:28.676 +02:00 [INF] Method UserController/GetUserByEmail used.
+2021-12-17 11:43:28.709 +02:00 [INF] It took 32 ms to perform User/GetUserByEmail
+2021-12-17 11:43:28.793 +02:00 [INF] Method PostController/GetPosts used.
+2021-12-17 11:43:28.826 +02:00 [INF] It took 33 ms to perform Post/GetPosts
+2021-12-17 11:43:31.707 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:43:31.739 +02:00 [INF] It took 32 ms to perform User/GetUsers
+2021-12-17 11:43:31.749 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:43:31.782 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:43:31.794 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:43:31.826 +02:00 [INF] It took 32 ms to perform User/GetUsers
+2021-12-17 11:43:31.838 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:43:31.870 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:43:31.881 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:43:31.913 +02:00 [INF] It took 32 ms to perform User/GetUsers
+2021-12-17 11:43:31.924 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:43:31.956 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:43:55.457 +02:00 [INF] Method ItemController/GetItemModel used.
+2021-12-17 11:43:55.489 +02:00 [INF] It took 38 ms to perform Item/GetItemModel
+2021-12-17 11:44:00.005 +02:00 [INF] Method ItemController/GetItemModel used.
+2021-12-17 11:44:00.037 +02:00 [INF] It took 32 ms to perform Item/GetItemModel
+2021-12-17 11:44:00.130 +02:00 [INF] Method ItemController/PutItemModel used.
+2021-12-17 11:44:00.219 +02:00 [INF] It took 130 ms to perform Item/PutItemModel
+2021-12-17 11:44:00.458 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:00.490 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:44:00.501 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:44:00.533 +02:00 [INF] It took 32 ms to perform User/GetUsers
+2021-12-17 11:44:00.545 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:00.577 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:44:10.722 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:44:10.758 +02:00 [INF] It took 35 ms to perform User/GetUsers
+2021-12-17 11:44:10.769 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:10.804 +02:00 [INF] It took 34 ms to perform Item/GetItems
+2021-12-17 11:44:10.832 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:44:10.864 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:44:10.894 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:10.926 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:44:10.954 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:44:10.987 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:44:11.014 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:11.046 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:44:16.373 +02:00 [INF] Method ItemController/DeleteItemModel used.
+2021-12-17 11:44:16.514 +02:00 [INF] It took 144 ms to perform Item/DeleteItemModel
+2021-12-17 11:44:16.551 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:44:16.584 +02:00 [INF] It took 32 ms to perform User/GetUsers
+2021-12-17 11:44:16.596 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:16.628 +02:00 [INF] It took 32 ms to perform Item/GetItems
+2021-12-17 11:44:35.822 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:35.854 +02:00 [INF] It took 33 ms to perform Item/GetItems
+2021-12-17 11:44:35.866 +02:00 [INF] Method UserController/GetUsers used.
+2021-12-17 11:44:35.899 +02:00 [INF] It took 33 ms to perform User/GetUsers
+2021-12-17 11:44:35.943 +02:00 [INF] Method ItemController/GetItems used.
+2021-12-17 11:44:35.977 +02:00 [INF] It took 33 ms to perform Item/GetItems

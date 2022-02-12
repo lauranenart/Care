@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.Views.OrganizationForm"
+             xmlns:local="clr-namespace:Care.ViewModels" 
+             Title="Add Organization"
+             BackgroundImageSource="img.jpg"
+             xmlns:behaviour="clr-namespace:Care.Helpers.Behaviours"
+             xmlns:converter="clr-namespace:Care.Helpers.Converters"
+             Visual="Material">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:InverseBoolConverter x:Key="InverseBoolConverter"/>
+            <converter:FirstValidationErrorConverter x:Key="FirstValidationErrorConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <local:AdminViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Orientation="Vertical" Padding="20">
+        <Image Source="logo.png" HorizontalOptions="Center" HeightRequest="200" WidthRequest="200"/>
+        <ScrollView Padding="20">
+            <Frame BackgroundColor="White" HasShadow="False" CornerRadius="10" WidthRequest="300" Margin="0, -20, 0, 0">
+                <StackLayout Orientation="Vertical" Spacing="30">
+                    <Label FontSize="Title" TextColor="Black" Text="Create new organization" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+
+                    <StackLayout Orientation="Vertical" Spacing="0">
+                        <Entry Placeholder="Organization title" Text="{Binding OrgName.Value, Mode=TwoWay}">
+                            <Entry.Behaviors>
+                                <behaviour:EntryLineValidationBehaviour IsValid="{Binding OrgName.IsValid}"/>
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Label Text="{Binding OrgName.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding OrgName.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+
+                        <Editor Placeholder="Quick organization description" HeightRequest="50" Text="{Binding OrgShortDescr.Value, Mode=TwoWay}">
+                            <Editor.Behaviors>
+                                <behaviour:EditorLineValidationBehaviour IsValid="{Binding OrgShortDescr.IsValid}"/>
+                            </Editor.Behaviors>
+                        </Editor>
+                        <Label Text="{Binding OrgShortDescr.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding OrgShortDescr.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+
+                        <Editor Placeholder="Longer organization description" HeightRequest="100" Text="{Binding OrgLongDescr.Value, Mode=TwoWay}">
+                            <Editor.Behaviors>
+                                <behaviour:EditorLineValidationBehaviour IsValid="{Binding OrgLongDescr.IsValid}"/>
+                            </Editor.Behaviors>
+                        </Editor>
+                        <Label Text="{Binding OrgLongDescr.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding OrgLongDescr.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+
+                        <Entry Placeholder="Organization link" Text="{Binding OrgLink.Value, Mode=TwoWay}" Keyboard="Url">
+                            <Entry.Behaviors>
+                                <behaviour:EntryLineValidationBehaviour IsValid="{Binding OrgLink.IsValid}"/>
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Label Text="{Binding OrgLink.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding OrgLink.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+
+                        <StackLayout Margin="0,20,0,10">
+                        <Grid RowSpacing="0" ColumnSpacing="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="80*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50*"></ColumnDefinition>
+                                <ColumnDefinition Width="50*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Choose Photo" TextColor="Black" CornerRadius="20" Grid.Row="0" Grid.Column="0"
+                            FontSize="Medium"  WidthRequest="140" HorizontalOptions="Center" VerticalOptions="Center"
+                            BackgroundColor="Transparent" BorderWidth="1" BorderColor="DarkGray" FontAttributes="Italic"
+                            HeightRequest="80" TextTransform="None" ImageSource="photos.png"
+                            Style="{StaticResource SecondaryBtnStyle}"
+                            Command="{Binding AddPhotoCommand}"/>
+
+                                <Frame CornerRadius="20" Padding="0" Grid.Row="0" Grid.Column="1"  
+                                VerticalOptions="StartAndExpand" HorizontalOptions="Center"
+                                IsClippedToBounds="True" HasShadow="True" HeightRequest="80" BackgroundColor="White"
+                                WidthRequest="125">
+                                    <Image Source="{Binding ChosenPhoto}" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                </Frame>
+                            </Grid>
+                        </StackLayout>
+
+                        <Entry IsVisible="False" Text="{Binding OrgPhotoFile.Value, Mode=TwoWay}" >
+                            <Entry.Behaviors>
+                                <behaviour:EntryLineValidationBehaviour IsValid="{Binding OrgPhotoFile.IsValid}"/>
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Label Text="{Binding OrgPhotoFile.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                            IsVisible="{Binding OrgPhotoFile.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                            Style="{StaticResource ErrorTextStyle}"/>
+
+                        <StackLayout Margin="0,10,0,10">
+                        <Grid RowSpacing="0" ColumnSpacing="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="60*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50*"></ColumnDefinition>
+                                <ColumnDefinition Width="50*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text="Choose Logo" TextColor="Black" CornerRadius="20" Grid.Row="0" Grid.Column="0"
+                            FontSize="Medium"  WidthRequest="140" HorizontalOptions="Center" VerticalOptions="Center"
+                            BackgroundColor="Transparent" BorderWidth="1" BorderColor="DarkGray" FontAttributes="Italic"
+                            HeightRequest="80" TextTransform="None" ImageSource="logoicon.png"
+                            Style="{StaticResource SecondaryBtnStyle}"
+                            Command="{Binding AddLogoCommand}"/>
+
+                            <Entry IsVisible="False" Text="{Binding OrgLogoFile.Value, Mode=TwoWay}"></Entry>
+
+                            <Frame CornerRadius="20" Padding="0" Grid.Row="0" Grid.Column="1"  
+                                VerticalOptions="StartAndExpand" HorizontalOptions="Center"
+                                IsClippedToBounds="True" HasShadow="True" HeightRequest="80" BackgroundColor="White"
+                                WidthRequest="125">
+                                <Image Source="{Binding ChosenLogo}" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </Frame>
+                        </Grid>
+                        </StackLayout>
+
+                        <Entry IsVisible="False" Text="{Binding OrgLogoFile.Value, Mode=TwoWay}" >
+                            <Entry.Behaviors>
+                                <behaviour:EntryLineValidationBehaviour IsValid="{Binding OrgLogoFile.IsValid}"/>
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Label Text="{Binding OrgLogoFile.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                            IsVisible="{Binding OrgLogoFile.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                            Style="{StaticResource ErrorTextStyle}"/>
+                    </StackLayout>
+
+                    <Button Text="Submit" TextColor="White" CornerRadius="20" FontAttributes="Bold"
+                        FontSize="Medium" HeightRequest="50" BackgroundColor="#64b6ac" 
+                        WidthRequest="130" HorizontalOptions="Center"
+                        Command="{Binding AddOrgCommand}"/>
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

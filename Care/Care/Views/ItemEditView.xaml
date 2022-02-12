@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Care.Views.ItemEditView"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:behaviour="clr-namespace:Care.Helpers.Behaviours"
+             xmlns:converter="clr-namespace:Care.Helpers.Converters" 
+             xmlns:local="clr-namespace:Care.ViewModels">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:InverseBoolConverter x:Key="InverseBoolConverter"/>
+            <converter:FirstValidationErrorConverter x:Key="FirstValidationErrorConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <local:ItemViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Margin="12" Padding="24" Spacing="24"
+                 BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout Orientation="Vertical" Spacing="30">
+            <Label FontSize="Title" TextColor="Black" Text="Donate your item to people in need" 
+                           FontAttributes="Bold" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+            <StackLayout Orientation="Vertical" Spacing="20">
+                <Entry Text="{Binding ImageId, Mode=TwoWay}" IsVisible="False"/>
+                <StackLayout Spacing="0">
+                <Label Text="Item name"/>
+                <Entry Placeholder="Item name" Text="{Binding Name.Value, Mode=TwoWay}">
+                    <Entry.Behaviors>
+                        <behaviour:EntryLineValidationBehaviour IsValid="{Binding Name.IsValid}"/>
+                    </Entry.Behaviors>
+                </Entry>
+                <Label Text="{Binding Name.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding Name.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+                </StackLayout>
+
+                <StackLayout Spacing="0">
+                <Label Text="Condition"/>
+                <Picker x:Name="picker_condition"
+                            Title="Select item condition"
+                            SelectedItem="{Binding Condition.Value, Mode=TwoWay}">
+                    <Picker.Items>
+                        <x:String>New</x:String>
+                        <x:String>Very Good</x:String>
+                        <x:String>Normal</x:String>
+                        <x:String>Satisfactory</x:String>
+                    </Picker.Items>
+                    <Picker.Behaviors>
+                        <behaviour:PickerLineValidationBehaviour IsValid="{Binding Condition.IsValid}"/>
+                    </Picker.Behaviors>
+                </Picker>
+
+                <Label Text="{Binding Condition.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding Condition.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+                </StackLayout>
+
+                <StackLayout Spacing="0">
+                    <Label Text="Category"/>
+                    <Picker x:Name="picker_category"
+                            Title="Select item category"
+                            SelectedItem="{Binding Category.Value, Mode=TwoWay}">
+                    <Picker.Items>
+                        <x:String>Clothes</x:String>
+                        <x:String>Shoes</x:String>
+                        <x:String>Home Appliance</x:String>
+                        <x:String>Food</x:String>
+                        <x:String>Furniture</x:String>
+                        <x:String>Household goods</x:String>
+                        <x:String>Books</x:String>
+                    </Picker.Items>
+                    <Picker.Behaviors>
+                        <behaviour:PickerLineValidationBehaviour IsValid="{Binding Category.IsValid}"/>
+                    </Picker.Behaviors>
+                </Picker>
+
+                <Label Text="{Binding Category.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                        IsVisible="{Binding Category.IsValid, Converter={StaticResource InverseBoolConverter}}"
+                        Style="{StaticResource ErrorTextStyle}"/>
+                </StackLayout>
+            </StackLayout>
+            
+            <Button Text="Edit" TextColor="White" CornerRadius="20" FontAttributes="Bold"
+                        FontSize="Medium" HeightRequest="50" BackgroundColor="#64b6ac" 
+                        WidthRequest="130" HorizontalOptions="Center"
+                        Command="{Binding EditItemCommand}" Clicked="Close_Popup"/>
+        </StackLayout>
+    </StackLayout>
+</pages:PopupPage>
